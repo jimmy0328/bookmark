@@ -1,28 +1,10 @@
-== README
+=== Rails BookMark 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Role: admin,user
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+user可以新增文章及程式內容，以利之後可以查詢書籤
+  1. user 可以依照分類建立文章
+  2. user 可以search自己的文章
+  3. user 可以將文章推到facebook
+admin可以管理文章
+  1. 
