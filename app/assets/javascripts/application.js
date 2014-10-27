@@ -17,3 +17,4 @@
 
 //= require ckeditor/init
 //= require bootstrap
+//= require bootstrap-tagsinput
