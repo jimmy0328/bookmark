@@ -1,0 +1,10 @@
+
+
+ <%=  form_for @article, url: admin_article_index_path, action: "create", html: {role: "form"} do |f| %>
+        <div class="form-group">
+          <label for="exampleInputEmail1"> Title </label>
+          <%= f.text_field :title, class: "form-control" %>
+        </div>
+        <%= f.cktext_area :content %>
+        <%= f.submit class: "btn btn-default btn-primary" %>
+      <% end %>

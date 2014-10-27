@@ -30,6 +30,10 @@ gem 'mysql2'
 gem 'ckeditor'
 gem 'paperclip'
 
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+gem 'font-awesome-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
