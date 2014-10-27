@@ -28,6 +28,10 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
+    autoprefixer-rails (3.0.1.20140826)
+      execjs
+    bootstrap-sass (3.2.0.2)
+      sass (~> 3.2)
     builder (3.2.2)
     ckeditor (4.1.0)
       mime-types
@@ -45,6 +49,8 @@ GEM
     coffee-script-source (1.8.0)
     erubis (2.7.0)
     execjs (2.2.2)
+    font-awesome-rails (4.2.0.0)
+      railties (>= 3.2, < 5.0)
     hike (1.2.3)
     i18n (0.6.11)
     jbuilder (2.2.3)
@@ -122,8 +128,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
+  bootstrap-sass
   ckeditor
   coffee-rails (~> 4.0.0)
+  font-awesome-rails
   jbuilder (~> 2.0)
   jquery-rails
   mysql2
