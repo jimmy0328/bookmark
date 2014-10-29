@@ -1,6 +1,4 @@
 module Admin::ArticleHelper
-
-
   
   def load_editor(name)
      editType = ['CKedit','CodeMirror','Markdown']
