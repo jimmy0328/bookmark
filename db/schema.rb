@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141024040943) do
+ActiveRecord::Schema.define(version: 20141028092825) do
 
   create_table "articles", force: true do |t|
     t.string   "title"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20141024040943) do
     t.string   "tag"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "edit_type",  default: 1, null: false
   end
 
   create_table "ckeditor_assets", force: true do |t|
@@ -36,5 +37,13 @@ ActiveRecord::Schema.define(version: 20141024040943) do
 
   add_index "ckeditor_assets", ["assetable_type", "assetable_id"], name: "idx_ckeditor_assetable", using: :btree
   add_index "ckeditor_assets", ["assetable_type", "type", "assetable_id"], name: "idx_ckeditor_assetable_type", using: :btree
+
+  create_table "posts", force: true do |t|
+    t.string   "title"
+    t.text     "context"
+    t.string   "type_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
