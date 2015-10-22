@@ -1,6 +1,6 @@
 class Admin::ArticleController < ApplicationController
 
-	# layout 'admin'
+
 	def index
 
 		@articles = Article.all
